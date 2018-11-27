@@ -18,11 +18,11 @@ function nowServing(katzDeliLine){
   }
 
 }
-
+var WaitingInLine
 function currentLine(people){
   let i = 0;
   while (i < people.length) {
-    line.push(` `+[i+1]+`. `  + people[i])
+    WaitingInLine.push(` `+[i+1]+`. `  + people[i])
     i++;
   }
   if (people.lengh === 0)
@@ -30,5 +30,5 @@ function currentLine(people){
     return "The line is currently empty.";
   }
   else
-  return(`The line is currently:` + line);
+  return(`The line is currently:` + WaitingInLine);
 }

@@ -29,6 +29,7 @@ function currentLine(katzDeliLine){
   {
     return "The line is currently empty.";
   }
-  else
+  else {
   return(`The line is currently:` + WaitingInLine);
+}
 }

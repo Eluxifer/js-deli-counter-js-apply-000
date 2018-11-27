@@ -18,7 +18,7 @@ function nowServing(katzDeliLine){
   }
 
 }
-
+var line = [];
 function currentLine(people){
   let i = 0;
   while (i < people.length) {

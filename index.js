@@ -20,11 +20,7 @@ function nowServing(katzDeliLine){
 }
 var WaitingInLine = [];
 function currentLine(katzDeliLine){
-  let i = 0;
-  while (i < katzDeliLine.length) {
-    WaitingInLine.push(` `+[i+1]+`. `  + katzDeliLine[i])
-    i++;
-  }
+  
   if (katzDeliLine.lengh === 0)
   {
     return "The line is currently empty.";

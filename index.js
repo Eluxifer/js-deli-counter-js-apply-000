@@ -19,10 +19,10 @@ function nowServing(katzDeliLine){
 
 }
 var WaitingInLine = [];
-function currentLine(people){
+function currentLine(katzDeliLine){
   let i = 0;
-  while (i < people.length) {
-    WaitingInLine.push(` `+[i+1]+`. `  + people[i])
+  while (i < katzDeliLine.length) {
+    WaitingInLine.push(` `+[i+1]+`. `  + katzDeliLine[i])
     i++;
   }
   if (people.lengh === 0)

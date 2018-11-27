@@ -25,7 +25,7 @@ function currentLine(katzDeliLine){
     WaitingInLine.push(` `+[i+1]+`. `  + katzDeliLine[i])
     i++;
   }
-  if (people.lengh === 0)
+  if (katzDeliLine.lengh === 0)
   {
     return "The line is currently empty.";
   }

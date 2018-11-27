@@ -29,6 +29,6 @@ function currentLine(people){
   {
     return "The line is currently empty.";
   }
-  else 
+  else
   return(`The line is currently;` + line);
 }

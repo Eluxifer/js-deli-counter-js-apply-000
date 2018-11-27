@@ -23,7 +23,7 @@ function currentLine(people){
   let i = 0;
   while (i < people.length) {
     line.push(` `+[i+1]+`. `  + people[i])
-    i++;)
+    i++;
   }
   if (people.lengh === 0)
   {

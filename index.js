@@ -18,7 +18,7 @@ function nowServing(katzDeliLine){
   }
 
 }
-var WaitingInLine
+var WaitingInLine = [];
 function currentLine(people){
   let i = 0;
   while (i < people.length) {
